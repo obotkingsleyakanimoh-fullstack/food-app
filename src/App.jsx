@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
 
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
   return (
     <>
    <Navbar />
-      <h1 className="text-[red]">Welcome To New Horizon, I love coding !</h1>
+    <Hero />
     </>
   )
 }
