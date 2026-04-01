@@ -1,5 +1,7 @@
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
+import HeadlineCards from "./components/HeadlineCards"
+
 
 
 function App() {
@@ -9,6 +11,7 @@ function App() {
     <>
    <Navbar />
     <Hero />
+    <HeadlineCards />
     </>
   )
 }
